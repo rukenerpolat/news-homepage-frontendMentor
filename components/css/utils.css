@@ -1,0 +1,6 @@
+@layer utilities {
+    .container {
+        max-width: 69.375rem; /* 1110px */
+        margin-inline: auto;
+    }
+}

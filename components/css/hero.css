@@ -1,0 +1,75 @@
+@layer components {
+    .hero {
+        margin-bottom: var(--sp-80);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--sp-30);
+        grid-template-areas: 
+            'thumbnail thumbnail new'
+            'title description new';
+
+        & .hero-content {
+            display: contents;
+
+            & .hero-image-container {
+                grid-area: thumbnail;
+            }
+
+            & .hero-title {
+                grid-area: title;
+                font-size: clamp(2.5rem, 2.1479rem + 1.5023vw, 3.5rem);
+                font-weight: var(--fw-800);
+            }
+
+            & .hero-content {
+                grid-area: description;
+                & .desc {
+                    margin-bottom: var(--sp-28);
+                }
+
+                & .read-more {
+                    background-color: var(--clr-red);
+                    color: var(--clr-off-white);
+                    letter-spacing: 4.38px;
+                    text-transform:uppercase;
+                    font-weight: var(--fw-700);
+                    padding: var(--sp-12) var(--sp-30);
+                }
+            }
+        }
+
+        & .new {
+            grid-area: new;
+            background-color: var(--clr-dark-blue);
+            padding: var(--sp-32) var(--sp-24);
+            color: var(--clr-off-white);
+
+            & .new-title-lg {
+                color: var(--clr-orange);
+                font-size: clamp(2rem, 1.8239rem + 0.7512vw, 2.5rem);
+            }
+
+            & .new-list {
+                & .new-item {
+                    margin-top: var(--sp-32);
+
+                    &:not(:last-child) {
+                        border-bottom: 1px solid var(--clr-grayish-blue);
+                        padding-bottom: var(--sp-28);
+                    }
+                                      
+                    & .new-title {
+                        color: var(--clr-off-white);
+                        font-size: var(--fs-20);
+                        margin-bottom: var(--sp-8);
+                        line-height: var(--lh-1-2);
+                    }
+
+                    & .new-desc {
+                        color: var(--clr-grayish-blue);
+                    }
+                }
+            }
+        }         
+    }   
+}
