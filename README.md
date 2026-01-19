@@ -15,6 +15,10 @@ This project was very useful **for my CSS practice**.
 
 🌐 [View Live Page]()
 
+| Desktop                             | Active States                          |
+| ----------------------------------- | -------------------------------------- |
+| ![](./assets/images/desktop-ss.png) | ![](./assets/images/active-states.jpg) |
+
 </div>
 
 ### <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="40"> Let’s connect:

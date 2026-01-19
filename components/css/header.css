@@ -1,7 +1,7 @@
 @layer components {
   .header {
     margin-bottom: var(--sp-56);
-    padding-top: var(--sp-88);
+    padding-top: var(--sp-56);
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
@@ -24,7 +24,7 @@
             left: 50%;
             bottom: -4px;
             width: 100%;
-            height: 1.5px;
+            height: 1px;
             background-color: var(--clr-red);
             transform: translateX(-50%) scaleX(0);
             transform-origin: center;

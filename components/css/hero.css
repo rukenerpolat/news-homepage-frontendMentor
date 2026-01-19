@@ -29,11 +29,16 @@
 
                 & .read-more {
                     background-color: var(--clr-red);
-                    color: var(--clr-off-white);
+                    color: var(--clr-dark-blue);
                     letter-spacing: 4.38px;
                     text-transform:uppercase;
                     font-weight: var(--fw-700);
                     padding: var(--sp-12) var(--sp-28);
+
+                    &:hover {
+                        background-color: var(--clr-dark-blue);
+                        color: var(--clr-off-white);
+                    }
                 }
             }
         }
@@ -63,6 +68,11 @@
                         font-size: var(--fs-20);
                         margin-bottom: var(--sp-8);
                         line-height: var(--lh-1-2);
+                        transition: color 0.2s ease-in-out;
+
+                        &:hover {
+                            color: var(--clr-orange);
+                        }
                     }
 
                     & .new-desc {

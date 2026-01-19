@@ -1,0 +1,35 @@
+@layer components {
+    .cards {
+        display: grid;
+        gap: var(--sp-30);
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        margin-bottom: var(--sp-80);
+
+        & .card {
+            display: flex;
+            gap: var(--sp-24);
+
+            & .card-content {
+                & .card-number {
+                    color: var(--clr-red);
+                    font-size: var(--fs-32);
+                    font-weight: var(--fw-700);
+                }
+
+                & .card-title {
+                    font-size: var(--fs-18);
+                    font-weight: var(--fw-800);
+                    color: var(--clr-dark-blue);
+
+                    & .card-link {
+                        padding-block: var(--sp-12) var(--sp-8);
+                        transition: color 0.2s ease-in-out;
+                        &:hover {
+                            color: var(--clr-red);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
