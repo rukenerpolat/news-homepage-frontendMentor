@@ -21,7 +21,7 @@
                 font-weight: var(--fw-800);
             }
 
-            & .hero-content {
+            & .hero-content-desc {
                 grid-area: description;
                 & .desc {
                     margin-bottom: var(--sp-28);
@@ -33,7 +33,7 @@
                     letter-spacing: 4.38px;
                     text-transform:uppercase;
                     font-weight: var(--fw-700);
-                    padding: var(--sp-12) var(--sp-30);
+                    padding: var(--sp-12) var(--sp-28);
                 }
             }
         }
