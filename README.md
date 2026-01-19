@@ -25,6 +25,9 @@ This project was very useful **for my CSS practice**.
 – JavaScript (hamburger menu for mobile design)  
 – Google Fonts – [Inter](https://fonts.google.com/specimen/Inter)
 
+<img width="384" height="677" alt="image" src="https://github.com/user-attachments/assets/1d557a18-35a6-4ad1-9304-ffec9551ff1f" />
+
+
 ### Project Structure
 
 ```
