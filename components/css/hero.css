@@ -1,4 +1,4 @@
-@layer components {
+@layer component {
     .hero {
         margin-bottom: var(--sp-80);
         display: grid;
@@ -7,6 +7,15 @@
         grid-template-areas: 
             'thumbnail thumbnail new'
             'title description new';
+
+        @media (max-width: 48rem) {
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            'thumbnail'
+            'title'
+            'description'
+            'new';
+        }
 
         & .hero-content {
             display: contents;
@@ -23,6 +32,11 @@
 
             & .hero-content-desc {
                 grid-area: description;
+
+                @media (max-width:48rem) {
+                    margin-bottom: var(--sp-64);                    
+                }
+
                 & .desc {
                     margin-bottom: var(--sp-28);
                 }

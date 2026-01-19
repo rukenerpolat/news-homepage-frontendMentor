@@ -1,9 +1,13 @@
-@layer components {
+@layer component {
     .cards {
         display: grid;
         gap: var(--sp-30);
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        margin-bottom: var(--sp-80);
+        margin-bottom: var(--sp-128); /*128*/
+
+        @media (max-width: 48rem) {
+            margin-bottom: var(--sp-80);
+        }
 
         & .card {
             display: flex;

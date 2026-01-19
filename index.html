@@ -11,12 +11,22 @@
     />
     <title>News Homepage | Frontend Mentor</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="components/js/main.js" defer></script>
+    <script src="main.js" defer></script>
   </head>
 
   <body>
     <header class="header container">
       <img src="assets/images/logo.svg" width="64" height="40" alt="New Logo" />
+
+      <!-- HAMBURGER MENU -->
+      <button class="mobile-menu-btn" aria-label="open menu">
+        <img
+          src="assets/images/icon-menu.svg"
+          alt="Open menu icon"
+          class="mobile-menu-icon"
+        />
+      </button>
+      <!-- HAMBURGER MENU END-->
 
       <nav class="navbar">
         <ul class="nav-list">
@@ -27,6 +37,7 @@
           <li class="nav-item"><a href="#" class="nav-link">Categories</a></li>
         </ul>
       </nav>
+      <div class="header-overlay"></div>
     </header>
 
     <main>

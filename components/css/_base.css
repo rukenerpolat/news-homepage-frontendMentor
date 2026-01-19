@@ -48,6 +48,7 @@
     --sp-72: 4.5rem;
     --sp-80: 5rem;
     --sp-88: 5.5rem;
+    --sp-128: 8rem;
     --sp-144: 9rem;
   }  
 
@@ -134,5 +135,12 @@
     color: inherit;
     text-transform: capitalize;
     transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
   }
 }
