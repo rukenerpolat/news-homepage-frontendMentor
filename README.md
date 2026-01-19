@@ -1,11 +1,3 @@
-<h1>⚠️ This project is currently in progress</h1>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <h1 align="center">Insure Landing Page | FrontendMentor Challenge</h1>
 
 <div align="center">
@@ -13,13 +5,49 @@
 This is my solution for the [News Homepage challenge](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl) on [Frontend Mentor](https://www.frontendmentor.io/). <br>
 This project was very useful **for my CSS practice**.
 
-🌐 [View Live Page]()
+🌐 [View Live Page](https://newshomepagefrontendmentorr.netlify.app/)
 
 | Desktop                             | Active States                          |
 | ----------------------------------- | -------------------------------------- |
 | ![](./assets/images/desktop-ss.png) | ![](./assets/images/active-states.jpg) |
 
 </div>
+
+### Features
+
+– View the optimal layout for the interface depending on their device's screen size  
+– See hover and focus states for all interactive elements on the page
+
+### Built With :
+
+– Semantic HTML5 markup  
+– CSS3 (Grid, responsive layout, **nested CSS, cascade layers**)  
+– JavaScript (hamburger menu for mobile design)  
+– Google Fonts – [Inter](https://fonts.google.com/specimen/Inter)
+
+### Project Structure
+
+```
+📂news-homepage
+├── assets/
+│   └── fonts/...
+│   └── images/...
+│
+├── components/
+│   └── css/
+│       └── _base.css
+│       └── cards.css
+│       └── header-overlay.css
+│       └── header.css
+│       └── hero.css
+│       └── utils.css
+│
+├── index.html
+├── style.css
+├── main.js
+├── .gitignore
+└── README.md
+```
 
 ### <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="40"> Let’s connect:
 
